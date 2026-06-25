@@ -3,10 +3,10 @@
 import { useEffect, useRef, useState } from 'react'
 
 const imageCards = [
-  ['hously-1.png', 'Intake', 'Capture every request'],
-  ['hously-2.png', 'Follow-up', 'Keep callbacks visible'],
-  ['hously-3.png', 'Dispatch', 'Move jobs cleanly'],
-  ['hously-4.png', 'Report', 'Show recovered revenue'],
+  ['pivo-intake.svg', 'Intake', 'Capture every request'],
+  ['pivo-van.svg', 'Service', 'Mobilize technicians faster'],
+  ['pivo-tools.svg', 'Tools', 'Keep job details organized'],
+  ['pivo-dispatch.svg', 'Dispatch', 'Move jobs cleanly'],
 ]
 
 export default function Home() {
@@ -81,7 +81,7 @@ export default function Home() {
 
       <main>
         <section id="hero" className={`hero ${progress >= 1 ? 'hero-unlocked' : ''}`}>
-          <img className="hero-bg" src="/assets/images/hously-background.png" alt="Modern architectural interior" />
+          <img className="hero-bg" src="/assets/images/pivo-hero-bg.svg" alt="Plumbing dispatch office background" />
           <div className="hero-shade" />
           <div ref={heroCopyRef} className="hero-copy">
             <p className="eyebrow">Plumbing revenue operations</p>
@@ -92,7 +92,7 @@ export default function Home() {
               <a className="button ghost" href="#system">See the system</a>
             </div>
           </div>
-          <img className="hero-fg" src="/assets/images/hously-foreground.png" alt="Architectural foreground detail" />
+          <img className="hero-fg" src="/assets/images/pivo-hero-fg.svg" alt="Plumber and dispatch foreground" />
         </section>
 
         <section id="problem" className="section intro-grid">
@@ -118,7 +118,7 @@ export default function Home() {
         </section>
 
         <section className="image-band section-tight">
-          {imageCards.map(([image, label, title]) => <article key={image}><img src={`/assets/images/${image}`} alt="Pivo visual reference" /><div><small>{label}</small><strong>{title}</strong></div></article>)}
+          {imageCards.map(([image, label, title]) => <article key={image}><img src={`/assets/images/${image}`} alt="Plumbing business workflow illustration" /><div><small>{label}</small><strong>{title}</strong></div></article>)}
         </section>
 
         <section id="audit" className="audit section">

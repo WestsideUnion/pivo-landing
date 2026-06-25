@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Plumber and dispatch foreground">
+  <defs><linearGradient id="fade" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#000" stop-opacity="0"/><stop offset=".65" stop-color="#000" stop-opacity=".08"/><stop offset="1" stop-color="#000" stop-opacity=".48"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#fade)"/>
+  <g transform="translate(190 520)"><rect x="0" y="80" width="480" height="92" rx="10" fill="#14130f" opacity=".72"/><rect x="40" y="0" width="300" height="96" rx="16" fill="#fff8ea" opacity=".13"/><rect x="70" y="26" width="170" height="18" rx="9" fill="#fb923c" opacity=".62"/><rect x="70" y="58" width="220" height="14" rx="7" fill="#fff8ea" opacity=".22"/></g>
+  <g transform="translate(1040 470)"><circle cx="90" cy="52" r="44" fill="#d8b08a"/><path d="M48 42c18-54 98-52 120 2-26-14-82-15-120-2z" fill="#2a211a"/><path d="M36 112h125c52 0 94 42 94 94v106H0V148c0-20 16-36 36-36z" fill="#fb923c" opacity=".88"/><path d="M72 124h70v208H72z" fill="#fff8ea" opacity=".18"/><path d="M162 160l130-68" stroke="#fff8ea" stroke-width="20" stroke-linecap="round" opacity=".72"/><path d="M292 92l52-26" stroke="#fb923c" stroke-width="18" stroke-linecap="round"/><rect x="-22" y="320" width="314" height="32" rx="16" fill="#111" opacity=".6"/></g>
+</svg>

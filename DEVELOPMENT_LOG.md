@@ -2,6 +2,35 @@
 
 Purpose: timestamped handoff notes for Jacky and future agents. Keep entries concise: when, what changed, why, and where to inspect.
 
+## 2026-06-25 02:05 UTC — Replaced Hously architecture images with plumbing-business visuals
+
+What changed:
+
+- Removed the remaining Hously architecture image assets from the Next landing repo.
+- Added local plumbing-business SVG visuals under `public/assets/images/`:
+  - `pivo-hero-bg.svg`
+  - `pivo-hero-fg.svg`
+  - `pivo-intake.svg`
+  - `pivo-van.svg`
+  - `pivo-tools.svg`
+  - `pivo-dispatch.svg`
+- Updated `app/page.tsx` image references and alt text to match plumbing business context.
+- Kept assets local so GitHub/Vercel does not depend on unreliable external stock-image links.
+
+Why:
+
+- Jacky asked to replace the template architecture images with plumbing-business-related images.
+- Image generation was attempted first but blocked by the OpenAI billing hard limit, so the safe fallback was local SVG imagery.
+
+Verification:
+
+- Ran `npm run build` successfully with Next.js `16.2.9`.
+
+Notes / cuts:
+
+- These are custom local SVG illustrations, not stock photography.
+- If Jacky wants real photographic images later, replace the SVG files in `public/assets/images/` with licensed photo assets using the same filenames or update `app/page.tsx` references.
+
 ## 2026-06-25 01:35 UTC — Converted landing page to Next/React
 
 What changed:
