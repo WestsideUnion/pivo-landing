@@ -2,6 +2,8 @@
 
 Standalone static marketing / business-development landing page for Pivo.
 
+UI direction: adapted from Jacky's Hously modern architecture studio template — dark architectural hero, warm orange/sand accent, Satoshi typography, sharp minimal cards, image-led sections.
+
 ## Local preview
 
 ```bash
