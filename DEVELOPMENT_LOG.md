@@ -2,6 +2,22 @@
 
 Purpose: timestamped handoff notes for Jacky and future agents. Keep entries concise: when, what changed, why, and where to inspect.
 
+## 2026-06-25 02:20 UTC — Restored original hero background
+
+What changed:
+
+- Restored the original Hously hero background image as `public/assets/images/hously-background.png`.
+- Updated `app/page.tsx` so the hero background uses the restored Hously image again.
+- Kept the plumbing-business SVG visuals for the other landing sections.
+
+Why:
+
+- Jacky asked to bring back the hero background after the plumbing-image replacement pass.
+
+Verification:
+
+- Ran `npm run build` successfully with Next.js `16.2.9`.
+
 ## 2026-06-25 02:05 UTC — Replaced Hously architecture images with plumbing-business visuals
 
 What changed:

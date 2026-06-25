@@ -81,7 +81,7 @@ export default function Home() {
 
       <main>
         <section id="hero" className={`hero ${progress >= 1 ? 'hero-unlocked' : ''}`}>
-          <img className="hero-bg" src="/assets/images/pivo-hero-bg.svg" alt="Plumbing dispatch office background" />
+          <img className="hero-bg" src="/assets/images/hously-background.png" alt="Modern architectural hero background" />
           <div className="hero-shade" />
           <div ref={heroCopyRef} className="hero-copy">
             <p className="eyebrow">Plumbing revenue operations</p>
