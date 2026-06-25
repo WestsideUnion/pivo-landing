@@ -18,6 +18,16 @@ Verification:
 
 - Ran `npm run build` successfully with Next.js `16.2.9`.
 
+GitHub:
+
+- Commit: `ea82dd4 Restore original hero background`
+
+Current image state after this update:
+
+- Hero background: restored original Hously architecture background.
+- Hero foreground: plumbing-business SVG foreground.
+- Supporting section visuals: plumbing-business SVGs for intake, service van, tools, and dispatch.
+
 ## 2026-06-25 02:05 UTC — Replaced Hously architecture images with plumbing-business visuals
 
 What changed:
@@ -41,6 +51,10 @@ Why:
 Verification:
 
 - Ran `npm run build` successfully with Next.js `16.2.9`.
+
+GitHub:
+
+- Commit: `653fa45 Replace landing images with plumbing visuals`
 
 Notes / cuts:
 
