@@ -2,6 +2,29 @@
 
 Purpose: timestamped handoff notes for Jacky and future agents. Keep entries concise: when, what changed, why, and where to inspect.
 
+## 2026-06-29 UTC — Added DESIGN.md visual contract
+
+What changed:
+
+- Added `DESIGN.md` for the standalone Next/React Pivo landing repo.
+- Captured the current landing-page visual contract:
+  - Hously-inspired architectural hero mood
+  - plumbing revenue-operations messaging
+  - warm paper/charcoal/orange palette
+  - oversized editorial Satoshi typography
+  - pill CTAs and sharp 4px cards
+  - Revenue Leak Audit as the primary conversion offer
+- Updated `README.md` with the design-system validation command.
+
+Why:
+
+- Jacky adopted the Google Labs DESIGN.md pattern and wants future frontend/product work, including sub-agents, to use persistent project design memory.
+- The landing page needs to stay premium, specific, and commercially sharp instead of becoming a generic SaaS page.
+
+Verification:
+
+- Ran `npx -y @google/design.md lint DESIGN.md` successfully with 0 errors and 0 warnings.
+
 ## 2026-06-25 02:20 UTC — Restored original hero background
 
 What changed:
