@@ -35,8 +35,8 @@ export function Hero() {
           <a href="#contact" className="shimmer-btn inline-flex h-12 items-center rounded-full bg-white px-8 text-base font-semibold text-zinc-950 shadow-lg shadow-white/10 hover:bg-zinc-200">
             Request a Revenue Leak Snapshot <ArrowRight className="ml-2 h-4 w-4" />
           </a>
-          <a href="https://westsideunion.github.io/Pivo/" className="inline-flex h-12 items-center rounded-full border border-zinc-800 bg-transparent px-8 text-base font-medium text-zinc-300 hover:border-zinc-700 hover:bg-zinc-900 hover:text-white">
-            View command room demo
+          <a href="mailto:hello@westside-union.com?subject=Book%20a%20Pivo%20Demo&body=Hi%20Westside%20Union%2C%0A%0AI%27d%20like%20to%20book%20a%20Pivo%20demo.%0A%0ABusiness%20name%3A%0AService%20area%3A%0AMain%20issue%20%28missed%20calls%2C%20quotes%2C%20dispatch%2C%20follow-up%29%3A%0A" className="inline-flex h-12 items-center rounded-full border border-zinc-800 bg-transparent px-8 text-base font-medium text-zinc-300 hover:border-zinc-700 hover:bg-zinc-900 hover:text-white">
+            Book a demo
           </a>
         </motion.div>
 

@@ -2,6 +2,22 @@
 
 Purpose: timestamped handoff notes for Jacky and future agents. Keep entries concise: when, what changed, why, and where to inspect.
 
+## 2026-06-30 UTC — Changed demo CTAs to booking language
+
+What changed:
+
+- Replaced passive demo CTAs (`View demo`, `Open demo`, `View command room demo`) with `Book a demo`.
+- Pointed demo CTAs to a prefilled email request to book a Pivo demo.
+- Corrected one remaining old pricing card label from `Starter / $199/mo` to the newer `Deeper Audit / $249–$499` path.
+
+Why:
+
+- Jacky wanted the page to push toward booking a demo rather than simply viewing/opening a demo.
+
+Verification:
+
+- Ran `npm run build` successfully with Next.js 16.2.9.
+
 ## 2026-06-30 UTC — Softened Pivo pricing to snapshot-first
 
 What changed:

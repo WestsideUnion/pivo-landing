@@ -6,7 +6,7 @@ import { useRef } from 'react'
 
 const offers = [
   { name: 'Snapshot', price: 'Free / $99', description: 'A low-friction snapshot before any software commitment.', features: ['Quick missed-call check', 'Quote follow-up check', 'Dispatch handoff check', 'Obvious leakage summary'], cta: 'Request snapshot', href: '#contact', highlighted: true },
-  { name: 'Starter', price: '$199/mo', description: 'A focused command room once leakage is confirmed.', features: ['Workflow map', 'Prioritized fix list', 'Revenue-risk notes', 'Build recommendation'], cta: 'See example', href: 'https://westsideunion.github.io/Pivo/', highlighted: false },
+  { name: 'Deeper Audit', price: '$249–$499', description: 'A fuller workflow review once the snapshot shows real leakage.', features: ['Workflow map', 'Prioritized fix list', 'Revenue-risk notes', 'Build recommendation'], cta: 'Book a demo', href: 'https://westsideunion.github.io/Pivo/', highlighted: false },
   { name: 'Pro', price: '$399+/mo', description: 'For teams that need multi-user workflow and implementation support.', features: ['Command-room setup', 'Follow-up workflow', 'Dispatch visibility', 'Monthly support from $99'], cta: 'Discuss fit', href: '#contact', highlighted: false },
 ]
 
