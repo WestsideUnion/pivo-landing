@@ -9,6 +9,19 @@ const imageCards = [
   ['pivo-dispatch.svg', 'Dispatch', 'Move jobs cleanly'],
 ]
 
+const auditDeliverables = [
+  ['01', 'Missed-call review', 'Where calls are dropped, delayed, or never owned.'],
+  ['02', 'Quote follow-up map', 'Which estimates need a visible chase rhythm before they go cold.'],
+  ['03', 'Dispatch handoff check', 'Where urgent jobs lose clarity between office and technician.'],
+  ['04', 'Revenue leak summary', 'A practical list of fixes ranked by urgency and value.'],
+]
+
+const auditOutcomes = [
+  'A clear picture of where jobs leak after the phone rings',
+  'A prioritized fix list your office can act on immediately',
+  'A recommendation on whether Pivo is worth building for your workflow',
+]
+
 export default function Home() {
   const heroCopyRef = useRef<HTMLDivElement>(null)
   const [progress, setProgress] = useState(0)
@@ -76,7 +89,7 @@ export default function Home() {
           <a href="#audit">Audit</a>
           <a href="#pricing">Pricing</a>
         </nav>
-        <a className="nav-cta" href="#contact">Book audit</a>
+        <a className="nav-cta" href="#contact">Request audit</a>
       </header>
 
       <main>
@@ -88,7 +101,7 @@ export default function Home() {
             <h1>Stop losing jobs after the phone rings.</h1>
             <p>Pivo gives plumbing owners one calm command room for missed calls, quote follow-up, and dispatch handoffs — the revenue moments that usually disappear in the noise.</p>
             <div className="hero-actions">
-              <a className="button primary" href="#contact">Book a Revenue Leak Audit</a>
+              <a className="button primary" href="#contact">Request a Revenue Leak Audit</a>
               <a className="button ghost" href="#system">See the system</a>
             </div>
           </div>
@@ -122,18 +135,45 @@ export default function Home() {
         </section>
 
         <section id="audit" className="audit section">
-          <div className="audit-panel"><p className="eyebrow">First offer</p><h2>Revenue Leak Audit</h2><p>Before selling software, show the owner where jobs are currently leaking: calls, quotes, scheduling, and follow-up ownership.</p></div>
-          <div className="audit-list"><p>✓ Review missed-call handling</p><p>✓ Review quote follow-up</p><p>✓ Review dispatch handoffs</p><p>✓ Estimate visible revenue leakage</p></div>
+          <div className="audit-panel">
+            <p className="eyebrow">First offer</p>
+            <h2>Revenue Leak Audit</h2>
+            <p>A focused review for plumbing owners who suspect good jobs are slipping between calls, callbacks, quotes, and dispatch handoffs.</p>
+            <div className="audit-proof">
+              <strong>$500–$1,500</strong>
+              <span>one-time diagnostic before any software build</span>
+            </div>
+            <a className="button primary audit-button" href="#contact">Request the audit</a>
+          </div>
+          <div className="audit-list">
+            <p className="audit-list-title">What you get</p>
+            {auditDeliverables.map(([number, title, copy]) => (
+              <article key={title}>
+                <span>{number}</span>
+                <div><b>{title}</b><p>{copy}</p></div>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="outcomes section-tight">
+          <div><p className="eyebrow dark">After the audit</p><h2>Walk away knowing exactly where the office is dropping revenue.</h2></div>
+          <div className="outcome-list">
+            {auditOutcomes.map((outcome) => <p key={outcome}>✓ {outcome}</p>)}
+          </div>
         </section>
 
         <section id="pricing" className="pricing section-tight">
-          <article><small>Audit</small><h3>Revenue Leak Audit</h3><strong>$500–$1,500</strong><p>One-time review and sales-entry offer.</p></article>
+          <article><small>Audit</small><h3>Revenue Leak Audit</h3><strong>$500–$1,500</strong><p>One-time diagnostic with missed-call, quote, dispatch, and fix-priority review.</p></article>
           <article><small>Core</small><h3>Pivo Starter</h3><strong>$199/mo</strong><p>Intake, follow-up, dispatch, and basic reporting.</p></article>
           <article><small>Growth</small><h3>Pivo Pro</h3><strong>$399+/mo</strong><p>Multi-user workflow and implementation support.</p></article>
         </section>
 
         <section id="contact" className="contact section">
-          <p className="eyebrow dark">Next step</p><h2>You are not just busy. Your system is dropping jobs.</h2><p>Book a Revenue Leak Audit and see where missed calls, slow follow-up, and unclear dispatch ownership are costing real work.</p><a className="button primary" href="mailto:hello@westside-union.com?subject=Pivo%20Revenue%20Leak%20Audit">Book audit</a>
+          <p className="eyebrow dark">Next step</p>
+          <h2>You are not just busy. Your system is dropping jobs.</h2>
+          <p>Send a short note and we will start with the Revenue Leak Audit — no platform commitment, just a clear look at where missed calls, slow follow-up, and unclear handoffs are costing work.</p>
+          <a className="button primary" href="mailto:hello@westside-union.com?subject=Pivo%20Revenue%20Leak%20Audit&body=Hi%20Westside%20Union%2C%0A%0AI%27d%20like%20to%20request%20a%20Pivo%20Revenue%20Leak%20Audit.%0A%0ABusiness%20name%3A%0AService%20area%3A%0AMain%20issue%20%28missed%20calls%2C%20quotes%2C%20dispatch%2C%20follow-up%29%3A%0A">Request audit</a>
         </section>
       </main>
     </>

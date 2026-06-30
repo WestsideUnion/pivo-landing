@@ -181,14 +181,15 @@ Use a contrast of shapes:
 - **Hero buttons:** primary white pill, secondary ghost pill.
 - **Problem cards:** sharp 4px, tall, lightly frosted over paper.
 - **Product frame:** dark charcoal mockup with urgent/warm/cool queue cards.
-- **Audit band:** full-width charcoal section with white text and practical checklist.
+- **Audit band:** full-width charcoal section with a clear one-time diagnostic price, practical deliverables, and a direct request-audit CTA.
+- **Outcome strip:** light follow-up section that tells owners what they walk away knowing after the audit.
 - **Pricing cards:** simple three-card assumption block, with Core highlighted.
 
 ## Do's and Don'ts
 
 - Do keep the hero cinematic and premium.
 - Do keep the copy commercially direct.
-- Do make the Revenue Leak Audit feel like the first practical step.
+- Do make the Revenue Leak Audit feel like the first practical step: clear price, clear deliverables, clear next action.
 - Do preserve the Hously-inspired architectural mood while replacing generic architecture meaning with plumbing-business reality.
 - Don't make it cartoonish, overly blue, or startup-generic.
 - Don't add too many CTAs before the audit offer is clear.

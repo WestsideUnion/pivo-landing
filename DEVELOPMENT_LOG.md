@@ -2,6 +2,32 @@
 
 Purpose: timestamped handoff notes for Jacky and future agents. Keep entries concise: when, what changed, why, and where to inspect.
 
+## 2026-06-30 UTC — Tightened Revenue Leak Audit offer
+
+What changed:
+
+- Strengthened the landing page around the first paid offer: `Revenue Leak Audit`.
+- Changed the primary CTA language from booking to requesting the audit.
+- Added a clearer audit panel with one-time diagnostic price range: `$500–$1,500`.
+- Added a `What you get` deliverables list:
+  - missed-call review
+  - quote follow-up map
+  - dispatch handoff check
+  - revenue leak summary
+- Added an `After the audit` outcomes section so owners know what they walk away with.
+- Updated the final CTA mailto link with a pre-filled audit request template.
+- Updated `DESIGN.md` prose to preserve the audit-offer design direction.
+
+Why:
+
+- Jacky asked to tighten the landing page offer first.
+- The page needed to make the audit feel like a concrete first step before selling software or platform commitment.
+
+Verification:
+
+- Ran `npx -y @google/design.md lint DESIGN.md` successfully with 0 errors and 0 warnings.
+- Ran `npm run build` successfully with Next.js 16.2.9.
+
 ## 2026-06-29 UTC — Added DESIGN.md visual contract
 
 What changed:
