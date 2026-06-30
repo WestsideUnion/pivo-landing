@@ -1,7 +1,7 @@
 ---
 version: alpha
 name: Pivo Landing
-description: Premium dark Nexus-style SaaS landing page for plumbing revenue operations, using motion, bento cards, dark panels, and audit-first conversion clarity.
+description: Premium dark Nexus-style SaaS landing page for plumbing revenue operations, using motion, bento cards, dark panels, and snapshot-first conversion clarity.
 colors:
   primary: "#181612"
   paper: "#F3EFE6"
@@ -148,7 +148,7 @@ The page structure is linear and conversion-focused:
 3. marquee strip for workflow concepts
 4. command-room product proof
 5. bento grid for the hidden leak and audit deliverables
-6. Revenue Leak Audit offer block
+6. Revenue Leak Snapshot offer block
 7. pricing/offer path cards
 8. final CTA and footer
 
@@ -161,7 +161,7 @@ Depth comes from:
 - dark radial glows
 - floating glass header
 - bento card hover scale
-- subtle border beam on the audit-first offer
+- subtle border beam on the snapshot-first offer
 - shimmer CTA
 - noise overlay
 
@@ -182,14 +182,14 @@ Use a contrast of shapes:
 - **Bento cards:** dark rounded cards with subtle hover scale and operational icons.
 - **Product frame:** dark mock command-room card with urgent/warm/recovered queue rows.
 - **Audit block:** dark rounded section with clear diagnostic price, practical deliverables, and request-audit CTA.
-- **Pricing cards:** three dark offer cards with the audit highlighted as the first step.
+- **Pricing cards:** three dark offer cards with the snapshot highlighted as the first step.
 - **Final CTA:** large centered dark section with direct audit request and demo link.
 
 ## Do's and Don'ts
 
 - Do keep the hero cinematic and premium.
 - Do keep the copy commercially direct.
-- Do make the Revenue Leak Audit feel like the first practical step: clear price, clear deliverables, clear next action.
+- Do make the Revenue Leak Snapshot feel like the first practical step: low friction, clear deliverables, clear next action.
 - Do preserve the Nexus-style dark SaaS motion/template structure while replacing generic platform copy with Pivo plumbing revenue content.
 - Don't make it cartoonish, overly blue, image-template dependent, or startup-generic.
 - Don't add too many CTAs before the audit offer is clear.

@@ -1,4 +1,4 @@
-const items = ['Missed calls', 'Quote follow-up', 'Dispatch handoffs', 'Revenue leak audit', 'Owner dashboard', 'Office workflow']
+const items = ['Missed calls', 'Quote follow-up', 'Dispatch handoffs', 'Revenue leak snapshot', 'Owner dashboard', 'Office workflow']
 
 export function LogoMarquee() {
   return (

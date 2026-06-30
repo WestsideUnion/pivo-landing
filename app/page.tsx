@@ -35,10 +35,10 @@ export default function Home() {
           <div className="mx-auto grid max-w-6xl gap-6 lg:grid-cols-[0.95fr_1.05fr] lg:items-stretch">
             <div className="rounded-3xl border border-zinc-800 bg-zinc-900 p-8">
               <p className="mb-4 text-xs font-bold uppercase tracking-[0.28em] text-orange-300">First offer</p>
-              <h2 className="mb-4 text-4xl font-bold text-white sm:text-5xl">Revenue Leak Audit</h2>
-              <p className="mb-8 text-zinc-400">A focused review for plumbing owners who suspect good jobs are slipping between calls, callbacks, quotes, and dispatch handoffs.</p>
-              <div className="mb-8 rounded-2xl bg-white p-5 text-zinc-950"><strong className="block text-4xl tracking-tight">$500–$1,500</strong><span className="text-sm text-zinc-600">one-time diagnostic before any software build</span></div>
-              <a href="#contact" className="shimmer-btn inline-flex rounded-full bg-white px-6 py-3 font-semibold text-zinc-950 hover:bg-zinc-200">Request the audit</a>
+              <h2 className="mb-4 text-4xl font-bold text-white sm:text-5xl">Revenue Leak Snapshot</h2>
+              <p className="mb-8 text-zinc-400">A quick first look for plumbing owners who suspect good jobs are slipping between calls, callbacks, quotes, and dispatch handoffs.</p>
+              <div className="mb-8 rounded-2xl bg-white p-5 text-zinc-950"><strong className="block text-4xl tracking-tight">Free / $99</strong><span className="text-sm text-zinc-600">quick diagnostic before any software pitch</span></div>
+              <a href="#contact" className="shimmer-btn inline-flex rounded-full bg-white px-6 py-3 font-semibold text-zinc-950 hover:bg-zinc-200">Request the snapshot</a>
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
               {['Missed-call handling', 'Quote follow-up rhythm', 'Dispatch handoff ownership', 'Fix list ranked by leakage'].map((item, i)=><div key={item} className="rounded-3xl border border-zinc-800 bg-zinc-900/60 p-6"><span className="mb-8 grid h-9 w-9 place-items-center rounded-full bg-orange-500/15 text-sm font-bold text-orange-300">0{i+1}</span><h3 className="mb-2 text-lg font-semibold text-white">{item}</h3><p className="text-sm text-zinc-400">Clear, practical review focused on real office moments that lose booked work.</p></div>)}

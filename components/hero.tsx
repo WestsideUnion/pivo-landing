@@ -33,7 +33,7 @@ export function Hero() {
 
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.55 }} className="mb-16 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a href="#contact" className="shimmer-btn inline-flex h-12 items-center rounded-full bg-white px-8 text-base font-semibold text-zinc-950 shadow-lg shadow-white/10 hover:bg-zinc-200">
-            Request a Revenue Leak Audit <ArrowRight className="ml-2 h-4 w-4" />
+            Request a Revenue Leak Snapshot <ArrowRight className="ml-2 h-4 w-4" />
           </a>
           <a href="https://westsideunion.github.io/Pivo/" className="inline-flex h-12 items-center rounded-full border border-zinc-800 bg-transparent px-8 text-base font-medium text-zinc-300 hover:border-zinc-700 hover:bg-zinc-900 hover:text-white">
             View command room demo

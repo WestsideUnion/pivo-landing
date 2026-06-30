@@ -51,7 +51,7 @@ export function Navbar() {
 
         <div className="hidden items-center gap-3 md:flex">
           <a href="https://westsideunion.github.io/Pivo/" className="text-sm text-zinc-400 hover:text-white">View demo</a>
-          <a href="#contact" className="shimmer-btn rounded-full bg-white px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-zinc-200">Request audit</a>
+          <a href="#contact" className="shimmer-btn rounded-full bg-white px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-zinc-200">Request snapshot</a>
         </div>
 
         <button className="p-2 text-zinc-400 hover:text-white md:hidden" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} aria-label="Toggle menu">
@@ -65,7 +65,7 @@ export function Navbar() {
             {navItems.map((item) => (
               <a key={item.label} href={item.href} onClick={() => setMobileMenuOpen(false)} className="rounded-lg px-4 py-3 text-sm text-zinc-400 transition-colors hover:bg-zinc-800 hover:text-white">{item.label}</a>
             ))}
-            <a href="#contact" className="shimmer-btn mt-2 rounded-full bg-white px-4 py-3 text-center text-sm font-semibold text-zinc-950">Request audit</a>
+            <a href="#contact" className="shimmer-btn mt-2 rounded-full bg-white px-4 py-3 text-center text-sm font-semibold text-zinc-950">Request snapshot</a>
           </div>
         </motion.div>
       )}

@@ -50,7 +50,7 @@ export function BentoGrid() {
             <div className="mb-4 w-fit rounded-lg bg-zinc-800 p-2"><ShieldCheck className="h-5 w-5 text-zinc-400" strokeWidth={1.5} /></div>
             <h3 className="mb-2 text-lg font-semibold text-white">No platform commitment first</h3>
             <p className="mb-6 text-sm text-zinc-400">Start with a diagnostic, not a big software promise. Find the leakage before building the system.</p>
-            <span className="rounded-full bg-emerald-500/15 px-3 py-1 text-xs font-semibold text-emerald-300">Audit-first sales path</span>
+            <span className="rounded-full bg-emerald-500/15 px-3 py-1 text-xs font-semibold text-emerald-300">Snapshot-first sales path</span>
           </motion.div>
 
           {deliverables.map((item) => {

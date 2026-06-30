@@ -2,6 +2,26 @@
 
 Purpose: timestamped handoff notes for Jacky and future agents. Keep entries concise: when, what changed, why, and where to inspect.
 
+## 2026-06-30 UTC — Softened Pivo pricing to snapshot-first
+
+What changed:
+
+- Replaced the high-friction public `Revenue Leak Audit` entry point with a lower-friction `Revenue Leak Snapshot`.
+- Changed public entry pricing from `$500–$1,500` to `Free / $99`.
+- Changed package path to:
+  - Snapshot: `Free / $99`
+  - Deeper Audit: `$249–$499`
+  - Pivo Setup: `Quoted`, with monthly support from `$99`
+- Updated CTA language from audit-first to snapshot-first across the page.
+
+Why:
+
+- Jacky questioned whether the audit and package prices were too high for cold plumbing businesses. The new path lowers buyer resistance and builds trust before asking for a bigger commitment.
+
+Verification:
+
+- Ran `npm run build` successfully with Next.js 16.2.9.
+
 ## 2026-06-30 UTC — Rebuilt landing with Nexus template direction
 
 What changed:
