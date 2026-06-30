@@ -2,6 +2,21 @@
 
 Purpose: timestamped handoff notes for Jacky and future agents. Keep entries concise: when, what changed, why, and where to inspect.
 
+## 2026-06-30 UTC — Added Westside Union footer attribution
+
+What changed:
+
+- Added `A Westside Union product.` to the Pivo footer.
+- Linked `Westside Union` to `https://www.westside-union.com`.
+
+Why:
+
+- Jacky wanted Pivo to visibly connect back to Westside Union in the footer.
+
+Verification:
+
+- Ran `npm run build` successfully with Next.js 16.2.9.
+
 ## 2026-06-30 UTC — Changed demo CTAs to booking language
 
 What changed:
