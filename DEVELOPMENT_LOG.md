@@ -2,6 +2,35 @@
 
 Purpose: timestamped handoff notes for Jacky and future agents. Keep entries concise: when, what changed, why, and where to inspect.
 
+## 2026-06-30 UTC — Rebuilt landing with Nexus template direction
+
+What changed:
+
+- Replaced the rejected Hously/static-feeling UI with a Nexus-style dark SaaS landing page.
+- Kept the implementation in Next.js/React components, not static HTML/CSS.
+- Added template-inspired sections:
+  - floating glass navbar
+  - animated hero
+  - workflow marquee
+  - dark command-room product proof
+  - bento-grid problem/system cards
+  - Revenue Leak Audit offer block
+  - audit-first pricing cards
+  - final CTA and footer
+- Preserved Pivo business content around missed calls, quote follow-up, dispatch handoffs, plumbing revenue operations, and the Revenue Leak Audit.
+- Updated `DESIGN.md` to make Nexus-style dark SaaS the current visual contract.
+
+Why:
+
+- Jacky said the previous UI/UX was really bad and asked to use the uploaded Nexus work-management-platform design as the template while keeping Pivo content.
+
+Verification:
+
+- Ran `npm run build` successfully with Next.js 16.2.9.
+- Ran `npx -y @google/design.md lint DESIGN.md` successfully with 0 errors and 0 warnings.
+- Verified the local dev server returned HTTP 200 and included the expected Pivo/Nexus-redesign content.
+- Browser screenshot was blocked by runtime browser policy / Chrome crashpad in this container, so visual verification is limited to build + rendered HTML response here.
+
 ## 2026-06-30 UTC — Tightened Revenue Leak Audit offer
 
 What changed:

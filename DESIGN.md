@@ -1,7 +1,7 @@
 ---
 version: alpha
 name: Pivo Landing
-description: Premium conversion landing page for plumbing revenue operations, using Hously-inspired architectural mood with plumbing-specific business clarity.
+description: Premium dark Nexus-style SaaS landing page for plumbing revenue operations, using motion, bento cards, dark panels, and audit-first conversion clarity.
 colors:
   primary: "#181612"
   paper: "#F3EFE6"
@@ -115,15 +115,15 @@ components:
 
 ## Overview
 
-The Pivo landing page should feel like a premium editorial architecture landing page translated into plumbing revenue operations. It is image-led, atmospheric, and refined, but the message stays blunt and commercial: missed calls, slow callbacks, stale quotes, and messy dispatch handoffs leak revenue.
+The Pivo landing page now follows the Nexus work-management-platform template direction: dark SaaS atmosphere, centered hero, motion reveals, floating glass nav, marquee strip, bento feature cards, animated pricing/offer cards, and a strong final CTA.
 
-The page is not a generic SaaS marketing template. It should feel calm, expensive, and specific to owner-operators who understand that the phone ringing is where money starts or disappears.
+The visual style should feel premium, modern, and operational, while the content stays blunt and commercial: missed calls, slow callbacks, stale quotes, and messy dispatch handoffs leak revenue.
 
 ## Colors
 
 - **Paper (`#F3EFE6`)** is the main light-page background after the hero.
 - **Ink (`#181612`)** carries the main body content.
-- **Charcoal (`#191815`)** is used for the hero atmosphere, product-frame mockup, and Revenue Leak Audit section.
+- **Zinc/charcoal dark surfaces** drive the whole page, following the Nexus template direction.
 - **Orange (`#FB923C`)** signals urgency, revenue leakage, CTA hover states, and numbered problem cues.
 - **Cream / white** are used for hero CTAs and dark-section text.
 - **Muted brown/gray (`#756D60`)** supports ledes and secondary explanatory text.
@@ -143,15 +143,14 @@ Use **Satoshi** where available. The landing typography is larger and more edito
 
 The page structure is linear and conversion-focused:
 
-1. sticky glass header
-2. full-screen image-led hero with scroll-intercept animation
-3. hidden-leak framing
-4. problem cards
-5. system/product proof
-6. visual workflow band
-7. Revenue Leak Audit offer
-8. pricing assumptions
-9. final CTA
+1. floating glass navbar
+2. centered dark SaaS hero with motion reveal
+3. marquee strip for workflow concepts
+4. command-room product proof
+5. bento grid for the hidden leak and audit deliverables
+6. Revenue Leak Audit offer block
+7. pricing/offer path cards
+8. final CTA and footer
 
 Keep section width around `1160px` and large vertical rhythm. The page should breathe more than the app demo.
 
@@ -159,13 +158,14 @@ Keep section width around `1160px` and large vertical rhythm. The page should br
 
 Depth comes from:
 
-- image-backed hero layers
-- translucent glass header
-- soft warm card shadows
-- product mockup panels
-- dark audit band contrast
+- dark radial glows
+- floating glass header
+- bento card hover scale
+- subtle border beam on the audit-first offer
+- shimmer CTA
+- noise overlay
 
-Do not overdo glass effects on light sections. The landing page should feel polished, not foggy.
+Do not bring back the old static Hously image-led look unless Jacky explicitly asks. The current template direction is Nexus-style dark SaaS.
 
 ## Shapes
 
@@ -177,20 +177,20 @@ Use a contrast of shapes:
 
 ## Components
 
-- **Header:** fixed glass, white text over hero, compact nav.
-- **Hero buttons:** primary white pill, secondary ghost pill.
-- **Problem cards:** sharp 4px, tall, lightly frosted over paper.
-- **Product frame:** dark charcoal mockup with urgent/warm/cool queue cards.
-- **Audit band:** full-width charcoal section with a clear one-time diagnostic price, practical deliverables, and a direct request-audit CTA.
-- **Outcome strip:** light follow-up section that tells owners what they walk away knowing after the audit.
-- **Pricing cards:** simple three-card assumption block, with Core highlighted.
+- **Header:** fixed floating glass navbar with hover pill animation.
+- **Hero buttons:** primary white shimmer pill, secondary dark outline pill.
+- **Bento cards:** dark rounded cards with subtle hover scale and operational icons.
+- **Product frame:** dark mock command-room card with urgent/warm/recovered queue rows.
+- **Audit block:** dark rounded section with clear diagnostic price, practical deliverables, and request-audit CTA.
+- **Pricing cards:** three dark offer cards with the audit highlighted as the first step.
+- **Final CTA:** large centered dark section with direct audit request and demo link.
 
 ## Do's and Don'ts
 
 - Do keep the hero cinematic and premium.
 - Do keep the copy commercially direct.
 - Do make the Revenue Leak Audit feel like the first practical step: clear price, clear deliverables, clear next action.
-- Do preserve the Hously-inspired architectural mood while replacing generic architecture meaning with plumbing-business reality.
-- Don't make it cartoonish, overly blue, or startup-generic.
+- Do preserve the Nexus-style dark SaaS motion/template structure while replacing generic platform copy with Pivo plumbing revenue content.
+- Don't make it cartoonish, overly blue, image-template dependent, or startup-generic.
 - Don't add too many CTAs before the audit offer is clear.
 - Don't sacrifice readability for visual atmosphere.
